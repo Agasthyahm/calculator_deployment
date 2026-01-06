@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
   - name: cont1
-    image: nginx
+    image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.1
     ports:
     - containerPort: 80
     
