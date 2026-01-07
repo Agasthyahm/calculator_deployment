@@ -7,7 +7,7 @@ spec:
   app: project
  containers:
   - name: cont1
-    image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.28
+    image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.30
     ports:
     - containerPort: 80
  imagePullSecrets:
