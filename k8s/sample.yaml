@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
   - name: cont1
-    image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.3
+    image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.26
     ports:
     - containerPort: 80
     
