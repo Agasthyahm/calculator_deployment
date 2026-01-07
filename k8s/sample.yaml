@@ -3,6 +3,8 @@ kind: Pod
 metadata:
  name: sample-pod
 spec:
+ nodeSelector:
+  app: project
  containers:
   - name: cont1
     image: 429219761476.dkr.ecr.eu-north-1.amazonaws.com/calculator-java:1.0.28
