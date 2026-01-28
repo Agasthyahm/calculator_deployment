@@ -3,6 +3,7 @@ kind: Pod
 metadata:
  name: calculator-pod
 spec:
+ restartPolicy: Never
  nodeSelector:
   app: project
  containers:
